@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 基本大屏样式 */
+body {
+  @apply bg-slate-900 text-slate-100;
+}
+
+.app-root { @apply min-h-screen }
